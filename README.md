@@ -162,22 +162,27 @@ This command will start a TensorBoard server locally, allowing you to view your 
 <!-- 
 <iframe src="https://bhimrazy-diabetic-retinopathy-detection.hf.space" frameborder="0" width="1920" height="1080"></iframe>
 -->
-### Overview
-Welcome to Diabetic Retinopathy Detection App! This app utilizes deep learning models to detect diabetic retinopathy in retinal images. Diabetic retinopathy is a common complication of diabetes and early detection is crucial for effective treatment.
+👁️ AI-Powered Diabetic Retinopathy Detection
+Overview
+Diabetic retinopathy is a leading cause of vision loss for individuals with diabetes, but early diagnosis can prevent irreversible damage. This application leverages advanced deep learning models to analyze retinal fundus images and instantly assess the severity of diabetic retinopathy.
 
-### Try It Out
-Use the interactive interface below to upload retinal images and get predictions on diabetic retinopathy severity.
+Empower your diagnostic process with fast, AI-driven insights designed to make early detection more accessible.
 
-[Open Diabetic Retinopathy Detection App](https://bhimrazy-diabetic-retinopathy-detection.hf.space)
+🚀 Live Demo
+Experience the model in action through our interactive web interface.
 
-[![Gradio App](https://github.com/bhimrazy/diabetic-retinopathy-detection/assets/46085301/4e0788dd-84a1-427e-a38a-e22c2aa86c50)](https://bhimrazy-diabetic-retinopathy-detection.hf.space)
+[Launch the Diabetic Retinopathy Detection App](https://eyegrade-dr--215rddhb.preview.emergentagent.com/)
 
-### How to Use
-1. Click on the "Open Diabetic Retinopathy Detection App" button above.
-2. Upload a retinal image by clicking on the "Upload Image" button.
-3. Once the image is uploaded, the model will process it and provide predictions on the severity of diabetic retinopathy.
-4. Interpret the results provided by the model.
+📋 How to Use the App
+Getting a prediction takes just a few seconds:
 
+Access the Portal: Click the launch link or image above to open the secure web interface.
+
+Upload a Scan: Click "Upload Image" to submit a clear retinal image.
+
+Run the Analysis: Our deep learning model will instantly process the scan to detect signs of retinal damage.
+
+Review Results: The app will output a predicted severity level to help guide next steps and further medical evaluation.
 ## 📖 Citation
 
 If you use this repository or the associated blog in your work, please cite it as:
