@@ -1,12 +1,18 @@
 ---
-title: Diabetic Retinopathy Detection App
-emoji: 🐢
+title: AI Diabetic Retinopathy Diagnostics
+short_description: Deep learning model for the early detection and severity grading of Diabetic Retinopathy from retinal fundus images.
+emoji: 🔬
 colorFrom: blue
-colorTo: purple
+colorTo: indigo
 sdk: gradio
 sdk_version: 4.22.0
 app_file: app.py
 license: mit
+tags:
+  - medical
+  - computer-vision
+  - deep-learning
+  - healthcare
 ---
 
 
