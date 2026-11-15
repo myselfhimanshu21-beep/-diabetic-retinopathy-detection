@@ -30,15 +30,31 @@ Efficiently process large datasets & develop advanced model pipelines for diabet
 ![diabetic-retinopathy-detection](https://github.com/bhimrazy/diabetic-retinopathy-detection/assets/46085301/bb45b4cf-9441-435f-819a-176226e1ac00)
 
 
-## TL;DR: 
-In this project, large datasets are efficiently handled by downloading, extracting, and preparing them for analysis. Utilizing PyTorch Lightning, a robust system for diabetic retinopathy detection is developed, categorizing images into distinct disease stages. The model pipeline is enriched with various pretrained backbone models, with progress tracked using TensorBoard. Furthermore, a user-friendly web app is created to showcase the model's capabilities. The approach pursued aims to streamline both data processing and model development, facilitating accurate and accessible diabetic retinopathy diagnosis.
+## 📖 Project Overview & Motivation
 
-## Getting Started
-**Introduction:**
-Diabetic retinopathy (DR) remains a significant global health concern, with early detection playing a critical role in preventing vision loss. For those eager to contribute to this vital area of research, a comprehensive project studio is readily available. This studio has already tackled many essential tasks involved in DR detection, providing researchers and enthusiasts with a ready-to-use platform for experimentation.
+Diabetic Retinopathy (DR) is a severe microvascular complication of diabetes and remains a leading cause of preventable blindness worldwide. Because symptoms often go unnoticed until irreversible damage occurs, early and accurate screening is critical for effective clinical intervention. 
 
-**Get Started with the Project Studio:**
-Researchers and enthusiasts alike can access the necessary tools and resources by duplicating this project studio. This streamlined solution offers an immediate starting point for experimentation on the [Diabetic Retinopathy Dataset](https://www.kaggle.com/c/diabetic-retinopathy-detection).
+This repository introduces an end-to-end, scalable machine learning pipeline designed to automate the diagnosis and severity grading of DR from high-resolution retinal fundus images. Built upon the **PyTorch Lightning** framework, this project prioritizes reproducibility, modularity, and high-performance distributed training. 
+
+By leveraging state-of-the-art pretrained convolutional architectures via transfer learning, the model efficiently processes large-scale medical datasets to classify images into clinically relevant disease stages. Beyond core model training, this repository bridges the gap between research and deployment by featuring real-time training telemetry and a fully interactive web application for seamless model inference.
+
+### ✨ Key Features
+* **Automated Data Pipelines:** Efficient, reproducible scripts for downloading, extracting, and preprocessing massive, highly imbalanced medical imaging datasets.
+* **Transfer Learning Architecture:** Seamless integration with various robust pretrained backbone models to accelerate convergence and maximize diagnostic accuracy.
+* **Real-time Experiment Tracking:** Deep integration with **TensorBoard** for granular monitoring of loss curves, learning rates, and validation metrics during training.
+* **Interactive Inference UI:** A ready-to-deploy **Gradio** web application that allows users to upload retinal scans and receive instant, AI-driven severity predictions.
+
+---
+
+## 🚀 Getting Started
+
+Setting up deep learning environments for high-resolution computer vision tasks can often be a bottleneck due to complex dependency graphs, hardware configurations, and data wrangling overhead. To eliminate this friction and lower the barrier to entry, we have provisioned a comprehensive **Project Studio**.
+
+### The Project Studio Environment
+This pre-configured workspace is designed for researchers, data scientists, and ML engineering enthusiasts who want to contribute to medical AI without dealing with initial setup hurdles. The studio has already executed the foundational data preparation tasks, offering a clean, ready-to-use platform optimized for immediate experimentation.
+
+### Quick Start & Duplication
+By duplicating this project studio, you gain instant access to a cloud-ready environment containing all necessary computational tools, dependencies, and the prepared **Diabetic Retinopathy Dataset**. This streamlined approach allows you to bypass boilerplate configuration and focus directly on core ML engineering tasks: designing experiments, fine-tuning hyperparameters, and refining model architectures for accurate DR diagnosis.(https://www.kaggle.com/c/diabetic-retinopathy-detection).
 
 **What the Studio Offers:**
 - Efficient Handling of Large Datasets: The studio automates the management of large datasets, including downloading, extracting, and data preparation.
@@ -189,28 +205,10 @@ Upload a Scan: Click "Upload Image" to submit a clear retinal image.
 Run the Analysis: Our deep learning model will instantly process the scan to detect signs of retinal damage.
 
 Review Results: The app will output a predicted severity level to help guide next steps and further medical evaluation.
-## 📖 Citation
-
-If you use this repository or the associated blog in your work, please cite it as:
-
-```bibtex
-@misc{yadav2024drdetection,
-  author       = {Bhimraj Yadav},
-  title        = {Diabetic Retinopathy Detection Utilizing Multiprocessing for Processing Large Datasets and Transfer Learning to Fine-Tune Deep Learning Models},
-  year         = {2024},
-  version      = {0.1.0},
-  doi          = {10.5281/zenodo.15362036},
-  howpublished = {\url{https://github.com/bhimrazy/diabetic-retinopathy-detection}},
-  note         = {Blog: \url{https://lightning.ai/bhimrajyadav/studios/diabetic-retinopathy-detection-utilizing-multiprocessing-for-processing-large-datasets-and-transfer-learning-to-fine-tune-deep-learning-models}}
-}
-```
 
 ## License
 
 [MIT](./LICENSE)
 
 
-## Author
-
-- [@bhimrazy](https://www.github.com/bhimrazy)
 
